@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIAN FOODS</title>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+ 
+
+</head>
+<style>
+    *{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kanit', sans-serif;
+}
+#navbar{
+display: flex;
+align-items: center;
+position: relative;
+
+}
+#navbar::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0px ;
+    left: 0px;
+}
+#l img {
+    height: 81px;
+    margin: -1px 62px;
+}
+#navbar ul{
+    display: flex;
+    font-size: 1.3rem;
+    list-style: none;
+}
+#navbar ul a {
+    display: block;
+    padding: 0px 35px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+#navbar ul a:hover {
+    display: block;
+    padding: 0px 35px;
+    border-radius: 20px;
+  
+    color: black;
+    background-color: white;
+}
+
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 174px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+#home::before {
+    content: "";
+    position: absolute;
+    background: url(vegetables-set-left-black-slate.jpg) no-repeat center center/cover;
+    opacity: 0.89;
+    z-index: -1;
+    height: 59%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+#home h1{
+    color: white;
+    font-size: 3.5rem;
+    padding: 20px;
+    text-align: center;
+}
+#home p{
+    color: white;
+    font-size: 1.5rem;
+
+    text-align: center;
+}
+#home .btn {
+    padding: 14px 56px;
+    font-size: 20px;
+    margin: 13px 0px;
+    cursor: pointer;
+    
+}
+#home .btn:hover {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border-color: black;
+    }
+    .ss{
+        display: flex;
+    }
+    #services {
+   
+        margin: 34px 34px 34px 34px;
+      
+    }
+    #services .box {
+        border: 2px solid #00c6ff;
+        border-radius: 20px;
+        margin: 0px 28px;
+        background-color: #ddfdf9;
+    }
+#services .box img {
+    height: 217px;
+    margin: auto;
+    display: block;
+}
+#services .hps {
+    padding: 20px;
+    text-align: center;
+    font-size: 3.5rem;
+}
+    #services .box p{
+        text-align: center;
+    }
+    #services .box h2{
+        text-align: center;
+    }
+
+
+
+#cl::before {
+    content: "";
+    position: absolute;
+    background: url(Our\ Clients\ \ \ LinkedIn\ Background\ \ \ Get\ some\ inspiration.jpg) no-repeat center center/cover;
+    opacity: 1.89;
+    z-index: -1;
+    height: 54%;
+    width: 100%;
+}
+
+    #cl .hpc{
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    #cl .items{
+        display: flex;
+        margin: 10px;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    #cl .items .b img {
+        height: 155px;
+        margin: 0px;
+        padding: 77px;
+    }
+
+
+
+
+    #contact .hpu{
+        text-align: center;
+        font-size: 3.5rem;
+
+    }
+    #contact::before{
+        content: "";
+    position: absolute;
+    background: url(pexels-pixabay-219692.jpg) no-repeat center center/cover;
+    opacity: 1.89;
+    z-index: -1;
+    height: 100%;
+    width: 100%
+    }
+#contact{
+    color: white;
+    position: relative;
+}
+.cb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px ;
+    
+
+}
+.cb  input,
+.cb textarea{
+width: 100%;
+padding: 0.5rem;
+font-size: 1.3rem;
+border-radius: 9px;
+}
+.cb form{
+    width: 50%;
+}
+.cb label{
+    font-size: 1.3rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:1456px){
+    #navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+#navbar ul a {
+    display: block;
+    padding: 0px 12px 0px 7px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#home::before {
+    height: 418px;
+}
+#home .btn {
+    padding: 2px 10px;
+    font-size: 15px;
+    margin: 13px 0px;
+    cursor: pointer;
+}
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 51px 31px;
+    justify-content: center;
+    align-items: center;
+    height: 213px;
+}
+#home p {
+    color: white;
+    font-size: 9px;
+    text-align: center;
+}
+#home h1 {
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ss {
+    display: flex;
+    flex-direction: column;
+}
+#services .box {
+    border: 2px solid #00c6ff;
+    border-radius: 20px;
+    margin: 0px 28px;
+    background-color: #ddfdf9;
+    margin: -4px 3px 42px 28px;
+    padding: 16px 15px;
+}
+
+#services .hps {
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem,;
+    font-size: 2rem;
+}
+#services .box img {
+    height: 179px;
+    margin: auto;
+    display: block;
+}
+
+
+
+
+#cl .items {
+    display: flex;
+    margin: 10px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+}
+#cl .items .b img {
+    height: 66px;
+    margin: 0px;
+    padding: 20px;
+    width: 80px;
+}
+#cl .hpc {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+#contact .hpu {
+    text-align: center;
+    font-size: 2rem;
+}
+}
+
+
+</style>
+<body>
+   <nav id="navbar">
+   <div id="l">
+    <img src="—Pngtree—crossed spoon and fork restaurant_4996072.png" alt="mian fooods">
+   </div>
+   <ul>
+    <li class="item"><a href="#">HOME</a></li>
+    <li class="item"><a href="#">SERVICES</a></li>
+    <li class="item"><a href="#">ABOUT</a></li>
+    <li class="item"><a href="#">CONTACT</a></li>
+    
+   </ul>
+   </nav>
+   <section id="home">
+    <h1 class="hp">WELCOME TO MIAN FOODS</h1>
+    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate sapiente laudantium numquam earum.</P>
+    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate sapiente laudantium numquam earum.</P>
+    <button class="btn">ORDER NOW</button>
+   </section>
+
+   <section id="services">
+    <h1 class="hps">OUR SERVICES</h1>
+    <div class="ss">
+        <div class="box">
+            <img src="pizza.png" alt="">
+            <h2>FOOD ORDERING</h2>
+            <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis ad sapiente recusandae veniam in quos ab saepe quas sequi tenetur?</P>
+        </div>
+        <div class="box">
+            <img src="food-png-2951 (2).png" alt="">
+            <h2>FOOD ORDERING</h2>
+            <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis ad sapiente recusandae veniam in quos ab saepe quas sequi tenetur?</P>
+        </div>
+        <div class="box">
+            <img src="food-delivery.png" alt="">
+            <h2>FOOD DELIVERY</h2>
+            <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis ad sapiente recusandae veniam in quos ab saepe quas sequi tenetur?</P>
+        </div>
+    </div>
+ 
+   </section>
+   <section id="cl">
+    <h1 class="hpc">OUR CLIENTS</h1>
+    <div class="items">
+        <div class="b">
+            <img src="apple.png" alt="">
+        </div>
+        <div class="b">
+            <img src="skype.png" alt="">
+        </div>
+        <div class="b">
+            <img src="hp.png" alt="">
+        </div>
+        <div class="b">
+            <img src="android.png" alt="">
+        </div>
+    </div>
+   </section>
+   <section id="contact">
+    <h1 class="hpu">CONTACT US</h1>
+    <div class="cb">
+        <form action="">
+            <div class="fg">
+                <label for="name">NAME:</label>
+                <input type="text" name="NAME" id="name" placeholder="type your name">
+            </div>
+            <div class="fg">
+                <label for="name">EMAIL:</label>
+                <input type="text" name="EMAIL" id="name" placeholder="type your EMAIL">
+            </div>
+            <div class="fg">
+                <label for="name">PHONE NUMBER:</label>
+                <input type="text" name="NAME" id="name" placeholder="type your NUMBER">
+            </div>
+            <label for="msg">MESSAGE</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            
+        </form>
+        
+    </div>
+   </section>
+
+   <footer>
+    <div class="f">
+        copyrights &copy; www.mianfoods.com all rights are reserved!
+    </div>
+      
+    
+    
+   </footer>
+</body>
+</html>

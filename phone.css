@@ -1,0 +1,110 @@
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+#navbar ul a {
+    display: block;
+    padding: 0px 12px 0px 7px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#home::before {
+    height: 418px;
+}
+#home .btn {
+    padding: 2px 10px;
+    font-size: 15px;
+    margin: 13px 0px;
+    cursor: pointer;
+}
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 51px 31px;
+    justify-content: center;
+    align-items: center;
+    height: 213px;
+}
+#home p {
+    color: white;
+    font-size: 9px;
+    text-align: center;
+}
+#home h1 {
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ss {
+    display: flex;
+    flex-direction: column;
+}
+#services .box {
+    border: 2px solid #00c6ff;
+    border-radius: 20px;
+    margin: 0px 28px;
+    background-color: #ddfdf9;
+    margin: -4px 3px 42px 28px;
+    padding: 16px 15px;
+}
+
+#services .hps {
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem,;
+    font-size: 2rem;
+}
+#services .box img {
+    height: 179px;
+    margin: auto;
+    display: block;
+}
+
+
+
+
+#cl .items {
+    display: flex;
+    margin: 10px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+}
+#cl .items .b img {
+    height: 66px;
+    margin: 0px;
+    padding: 20px;
+    width: 80px;
+}
+#cl .hpc {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+#contact .hpu {
+    text-align: center;
+    font-size: 2rem;
+}
